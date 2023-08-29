@@ -92,9 +92,9 @@ struct ContentView: View {
     }
     
     private func print(_ text: String, ender: String = "\n") {
-         DispatchQueue.main.async {
-             labelText += text + ender
-         }
+        DispatchQueue.main.async {
+            labelText += text + ender
+        }
     }
     
     func launchServer(uninstall: Bool = false) -> ProcessCommunication? {

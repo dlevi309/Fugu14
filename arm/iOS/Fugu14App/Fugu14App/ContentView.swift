@@ -82,8 +82,8 @@ struct ContentView: View {
     
     func print(_ text: String) {
         DispatchQueue.main.async {
-             labelText += text + "\n"
-         }
+            labelText += text + "\n"
+        }
     }
     
     func doSetup() {
